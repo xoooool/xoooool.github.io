@@ -6,6 +6,12 @@ date: 2009-07-17
 ---
 Online learning is a modern take on the early perceptron work that uses gradient descent methods to update models as training example are examined sequentially.
 
+In broad categories, various online learning formalisation can be classified as:
+
+- Prediction with Expert Advice
+- Online Convex (or linear) Optimisation
+- Bandits / Partial Monitoring
+
 References
 ----------
 
@@ -19,4 +25,6 @@ References
 
 * N. Cesa-Bianchi and G. Lugosi,  _[Prediction, Learning, and Games](http://books.google.com/books?id=zDnRBlazhfYC&dq=Prediction+Learning+and+games&printsec=frontcover&source=bn&hl=en&ei=BQxgSt-eJqCQ6APL85WXCw&sa=X&oi=book_result&ct=result&resnum=4)_ (2006).
 
-{:.compact .quiet }
+* S. Wright, _[Optimization Algorithms in Machine Learning](http://pages.cs.wisc.edu/~swright/nips2010/sjw-nips10.pdf)_, NIPS Tutorial, (2010).
+
+{:.compact }

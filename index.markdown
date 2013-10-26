@@ -1,67 +1,55 @@
 ---
-layout: name
 title: Home
-
 section: Home
 ---
 
-<img class='inset right' src='/images/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
-
 Welcome
 =======
+<img class='inset right' style='margin-top: -3em;' src='/pics/mark_reid.jpg' title='Mark Reid' alt='Photo of Mark Reid drinking a coffee' width='120px' />
 
 I'm Mark Reid, a 30-something Australian, academic, husband, programmer, father, 
-snowboarder, and web-nerd---amongst other things. You can find out more about 
-be by poking around the links above and below.
+snow/skateboarder, and web-nerd---amongst other things. You can find out more about 
+me by poking around the links above and below.
 
-+--	{.section}
+<div class="section">
 Research
 ========
-My day job is as a [Research Fellow](/work) in statistical machine learning at 
-the Australian National University's Research School of Information Sciences and
-Engineering.
-=--
+My day job is as a [Research Fellow](/work) in machine learning at 
+the Australian National University's Research School Computer Science
+and am contributed to [NICTA](http://nicta.com.au)'s Canberra Lab.
 
-+-- {.section}
+Find out more about [my work](/work) and [publications](/work/pubs).
+</div>
+
+<div class="section">
 Blogs
 =====
-I keep a research blog called _[Inductio ex Machina](/iem)_ on 
+I keep a research blog called _[Inductio ex Machina](/blog)_ on 
 machine learning and statistics.
 Recent posts include:
-{% for post in site.categories.iem limit:3 %}
-<ul class="compact recent">
-<li>
-	<a href="{{ post.url }}" title="{{ post.excerpt }}">{{ post.title }}</a>
-	<span class="date">{{ post.date | date_to_string }}</span> 
-</li>
-</ul>
-{% endfor %}
-=--
 
-+--{.section}
-I have also just started a programming blog called _[Structure & Process](/sap)_.
-{% for sappost in site.categories.sap limit:3 %}
-<ul class="compact recent">
-<li>
-	<a href="{{ sappost.url }}" title="{{ sappost.excerpt }}">{{ sappost.title }}</a>
-	<span class="date">{{ sappost.date | date_to_string }}</span> 
-</li>
+<ul>
+$for(posts)$
+  <li><a href="$url$" title="$excerpt$">$title$</a></li>
+$endfor$
 </ul>
-{% endfor %}
-=--
 
-+-- {.section}
+</div>
+
+<div class="section">
 [Twitter](http://twitter.com/mdreid)
 ====================================
+ <a class="twitter-timeline" href="https://twitter.com/mdreid" height="2em" data-widget-id="364574639483129859" data-chrome="nofooter noborders noheader noscrollbar transparent" data-tweet-limit="1" data-show-replies="false">Tweets by @mdreid</a>
+ <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-Contacting Twitter... 
-{:#twitter_update_list }
 
-=--
+</div>
 
-+-- {.section}
+<div class="section">
 [Reading](http://librarything.com/home/mdreid)
 ==============================================
 
 <script type="text/javascript" src="http://www.librarything.com/jswidget.php?reporton=mdreid&show=recent&header=&num=8&covers=small&text=title&tag=show&css=0&style=2&version=1"> </script>
-=--
+</div>
+
+

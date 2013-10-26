@@ -1,9 +1,7 @@
 ---
-layout: name
-section: Code
 title: Plain Text Wiki
 ---
-Plain Text Wiki {: .emphnext :}
+Plain Text Wiki 
 ===============
 I really liked the idea of Matt Webb's [Plain Text Wiki][1], the wiki you run 
 inside TextMate. So much so, that I wanted to use it to manage one of my
@@ -63,7 +61,7 @@ and make sure that TextMate is using the same version of ruby as the
 command-line does. To do so, just follow the instructions over at 
 [blog.dnite.org][environment] and you should be good to go.
 
-[bundle]: /files/code/Plain%20Text%20Wiki.tmbundle.zip
+[bundle]: /bits/code/Plain%20Text%20Wiki.tmbundle.zip
 [environment]: http://blog.dnite.org/2007/8/28/textmate-and-your-environment-variables
 
 Configure

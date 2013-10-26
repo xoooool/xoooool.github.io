@@ -1,14 +1,8 @@
 ---
-layout: name
-
 title: Info
-section: Info
-
-top: Mark Reid
-
 ---
 
-<img class='inset right' src='/images/mark_reid3.jpg' title='Mark Reid' alt='Photo of Mark Reid with long hair' width='120px' />
+<img class='inset right' src='/pics/mark_reid3.jpg' title='Mark Reid' alt='Photo of Mark Reid with long hair' width='120px' />
 
 About Me
 ========
@@ -29,6 +23,6 @@ About This Site
 
 I bought the domain [mark.reid.name](/) in early 2007 with the intention of making it the one-stop-shop for all of my personal and professional information.
 
-In many ways, this new site is the successor to my previous personal site: [Three Words Long](http://threewordslong.com). I intend to eventually move all of the content their to this new domain.
+In many ways, this new site is the successor to my previous (and currently defunct) personal site: [Three Words Long](http://threewordslong.com). I intend to eventually move all of the content there to this new domain.
 
 More about the content, design and mechanics of this site can be found in the site's [Colophon](/info/site.html).

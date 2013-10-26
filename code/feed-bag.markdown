@@ -1,10 +1,8 @@
 ---
-layout: name
-section: Code
 title: Feed Bag - A Simple RSS Archiver
 ---
 
-Feed Bag - A Simple RSS Archiver {: .emphnext :}
+Feed Bag - A Simple RSS Archiver 
 ================================
 RSS is a great format for communicating the _most recent_ stories, comments or
 changes on a site but does not usually go back further than the last 10 or 20
@@ -61,7 +59,7 @@ Once you have all of the above dependencies, you can do one of two things:
 * Download the [feedbag.zip][] file and unpack it. 
 * Check it from my [GitHub Feedbag repository][github].
 
-[feedbag.zip]: /files/code/feedbag.zip
+[feedbag.zip]: /bits/code/feedbag.zip
 [github]: http://github.com/mreid/feed-bag/tree/master
 
 Either way, you will get these three files:
@@ -201,4 +199,4 @@ create a useful data set with it.
 You can email me usingthe link at the bottom of this page, or leave me a comment
 at my blog: _[inductio ex machina][]_.
 
-[inductio ex machina]: http://conflate.net/inductio/
+[inductio ex machina]: /blog/
